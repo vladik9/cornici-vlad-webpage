@@ -1,0 +1,125 @@
+/* ============================================= */
+/* Index.html Css file */
+/* Clasic Css Properties */
+body {
+  text-align: center;
+}
+/* Navbar Setction  */
+#navbar-section {
+  padding: 0 17%;
+  border: 10px;
+  width: auto;
+}
+.name-hover:hover {
+  color: white;
+}
+.container-padding {
+  padding: 2% 0;
+  background-color: #97d8e7;
+}
+.font-name {
+  font-family: "Kurale", serif;
+}
+.name {
+  color: #000;
+  font-size: 150%;
+  padding-left: 10%;
+}
+.links-fonts {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+}
+.links-padding {
+  padding: 0 5px;
+}
+.links-padding-left {
+  padding-right: 0;
+}
+.nav-link {
+  font-style: initial;
+}
+
+/* Welcome Section */
+.image-size-career-steps {
+  width: 90%;
+  height: 90%;
+}
+.text-align {
+  text-align: justify;
+  font-family: "Sansita Swashed", cursive;
+}
+.text-adjust {
+  padding-right: 0px;
+  padding-left: 45px;
+}
+.button-margins {
+  margin: 150px auto 50px;
+}
+.welcome-padding {
+  padding: 80px 0 40px;
+}
+
+/* Information Cards */
+#Information-cards-section {
+  padding: 5% 20%;
+}
+.postion-list {
+  text-align: left;
+}
+.padding-bottom {
+  margin-bottom: 20px;
+}
+/* Social Network Section */
+#social-contact-section {
+  margin: 0 18%;
+  background-color: #97d8e7;
+}
+.social-contact-class {
+  height: 100px;
+  width: auto;
+}
+.social-icons {
+  padding: 30px 20px;
+}
+/* Footer Section  */
+.foter-class {
+  padding-top: 20px;
+  font-family: "Peddana", serif;
+}
+/* Other Css Properties */
+
+/* ============================================= */
+
+/* ============================================= */
+/* Curriculum Vitae Css file */
+.content-management {
+  padding: 5% 10%;
+  font-family: "Kurale", serif;
+  text-align: justify;
+}
+.button-margins-cv {
+  margin: 30px 0 0 90px;
+}
+/* Softwer Section */
+.row-settings {
+  padding: 50px 10px;
+}
+
+.back-color {
+  width: auto;
+  height: 200px;
+  padding: 2% 0 15%;
+}
+.text-adjust-padding {
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 2%;
+  font-family: "Sumana", serif;
+}
+
+/* Professional Information  */
+
+.container-info-size {
+  margin: 0 19.5%;
+  padding-bottom: 50px;
+}

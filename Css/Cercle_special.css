@@ -1,0 +1,60 @@
+/* Subsection for cercle procetage */
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 3s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 25;
+  }
+}
+
+.circular-chart.ilustrator .circle {
+  stroke: #ff7f18;
+}
+.circular-chart.photoshop .circle {
+  stroke: #31c5f0;
+}
+.circular-chart.afterefect .circle {
+  stroke: #d6a8ff;
+}
+
+.percentage {
+  fill: #666;
+  font-family: "Piazzolla", serif;
+  font-size: 0.3rem;
+  text-anchor: middle;
+}
+.icon-name {
+  font-size: 0.5rem;
+}
+
+.cercele-padding {
+  padding: 15% 15%;
+}
