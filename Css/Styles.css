@@ -3,19 +3,20 @@
 /* Clasic Css Properties */
 body {
   text-align: center;
+  margin: 0;
 }
 /* Navbar Setction  */
 #navbar-section {
   border: 10px;
   width: auto;
-  background-color: #97d8e7;
+  background-color: #41aea9;
 }
 .name-hover:hover {
   color: white;
 }
 .container-padding {
   padding: 0 17%;
-  height: 200px;
+  height: 220px;
 }
 .font-name {
   font-family: "Kurale", serif;
@@ -41,6 +42,9 @@ body {
 .padding-navbar {
   padding-top: 5%;
 }
+.name-padding {
+  padding-left: 2px;
+}
 
 /* Welcome Section */
 .image-size-career-steps {
@@ -52,8 +56,8 @@ body {
   font-family: "Sansita Swashed", cursive;
 }
 .text-adjust {
-  padding-right: 0px;
-  padding-left: 45px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .button-margins {
   margin: 90px auto 50px;
@@ -74,7 +78,7 @@ body {
 }
 /* Social Network Section */
 #social-contact-section {
-  background-color: #97d8e7;
+  background-color: #41aea9;
   height: 200px;
 }
 .social-contact-class {
@@ -86,6 +90,7 @@ body {
 }
 .social-icons {
   padding: 30px 20px;
+  color: aliceblue;
 }
 /* Footer Section  */
 .foter-class {
@@ -112,7 +117,7 @@ body {
   margin: 10% 0 0 5%;
 }
 .button-margins-cv2 {
-  margin: 0 0 10% 50%;
+  margin: 5% 0 10% 50%;
 }
 /* Softwer Section */
 .row-settings {
@@ -130,12 +135,15 @@ body {
   padding-top: 4%;
   font-family: "Sumana", serif;
 }
+.minus-margin {
+  margin: 0;
+}
 
 /* Professional Information  */
 
 .container-info-size {
   padding-bottom: 50px;
-  background-color: #97d8e7;
+  background-color: #41aea9;
   height: 300px;
   margin: 0;
 }
