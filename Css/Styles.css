@@ -6,16 +6,16 @@ body {
 }
 /* Navbar Setction  */
 #navbar-section {
-  padding: 0 17%;
   border: 10px;
   width: auto;
+  background-color: #97d8e7;
 }
 .name-hover:hover {
   color: white;
 }
 .container-padding {
-  padding: 2% 0;
-  background-color: #97d8e7;
+  padding: 0 17%;
+  height: 200px;
 }
 .font-name {
   font-family: "Kurale", serif;
@@ -26,8 +26,8 @@ body {
   padding-left: 10%;
 }
 .links-fonts {
-  font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
 }
 .links-padding {
   padding: 0 5px;
@@ -37,6 +37,9 @@ body {
 }
 .nav-link {
   font-style: initial;
+}
+.padding-navbar {
+  padding-top: 5%;
 }
 
 /* Welcome Section */
@@ -53,7 +56,7 @@ body {
   padding-left: 45px;
 }
 .button-margins {
-  margin: 150px auto 50px;
+  margin: 90px auto 50px;
 }
 .welcome-padding {
   padding: 80px 0 40px;
@@ -71,12 +74,15 @@ body {
 }
 /* Social Network Section */
 #social-contact-section {
-  margin: 0 18%;
   background-color: #97d8e7;
+  height: 200px;
 }
 .social-contact-class {
   height: 100px;
   width: auto;
+}
+.social-contact-class-index {
+  padding-top: 50px;
 }
 .social-icons {
   padding: 30px 20px;
@@ -86,6 +92,11 @@ body {
   padding-top: 20px;
   font-family: "Peddana", serif;
 }
+
+.row-padding {
+  padding-top: 5%;
+}
+
 /* Other Css Properties */
 
 /* ============================================= */
@@ -97,8 +108,11 @@ body {
   font-family: "Kurale", serif;
   text-align: justify;
 }
-.button-margins-cv {
-  margin: 30px 0 0 90px;
+.button-margins-cv1 {
+  margin: 10% 0 0 5%;
+}
+.button-margins-cv2 {
+  margin: 0 0 10% 50%;
 }
 /* Softwer Section */
 .row-settings {
@@ -113,13 +127,18 @@ body {
 .text-adjust-padding {
   text-align: center;
   line-height: 1.5;
-  padding-top: 2%;
+  padding-top: 4%;
   font-family: "Sumana", serif;
 }
 
 /* Professional Information  */
 
 .container-info-size {
-  margin: 0 19.5%;
   padding-bottom: 50px;
+  background-color: #97d8e7;
+  height: 300px;
+  margin: 0;
+}
+.software-settings {
+  padding: 0;
 }
