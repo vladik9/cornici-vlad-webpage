@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cornici Vlad</title>
+    <title>Cornici Vlad -CV</title>
     <link rel="icon" href="Images/favicon_CV.ico">
     <!-- Bootstrap link -->
 
@@ -13,6 +13,7 @@
     <!-- CssStyle -->
 
     <link rel="stylesheet" href="Css/Styles.css">
+    <link rel="stylesheet" href="Css/Cercle_special.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
@@ -20,6 +21,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sumana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
 
     <!-- AsomeIcons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -70,36 +74,89 @@
             </nav>
         </div>
     </section>
-    <!-- Welcome Section -->
-    <section id="welcome-section ">
-        <div class="container welcome-padding">
-            <div class="welcome-class">
-                <div class="row minus-margin">
-                    <div class="col-lg-6 text-adjust">
-                        <div class="text-adjust">
-                            <h1 class="text-align">Bine ai venit pe pagina mea. </h1>
-                            <h1 class="text-align">Aici găsești datele mele de contact.</h1>
-                        </div>
-                        <div class="button-margins">
-                            <a href="CV.html">
-                                <button type="button" class="btn btn-danger btn-lg ">CV
-                                    complet</button>
-                            </a>
-                        </div>
+
+    <!-- Contact-Section -->
+    <section id="contact-section">
+        <div class="container contact-padding">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-md-offset-3 border">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" action="" method="post">
+                            <legend class="text-left settings-contact ">Contact Me</legend>
+                            <!-- Name input-->
+                            <div class="form-group size-control-smale">
+                                <div class="col-md-9  padding-form">
+                                    <input id="name" name="name" type="text" placeholder="Your name"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Email input-->
+                            <div class="form-group size-control-smale">
+                                <div class="col-md-9 padding-form">
+                                    <input id="email" name="email" type="text" placeholder="Your email"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Message body -->
+                            <div class="form-group size-control-smale">
+                                <label class="col-md-3 control-label" for="message"></label>
+                                <div class="col-md-9 padding-form">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Please enter your message here..." rows="5"></textarea>
+                                </div>
+                            </div>
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-sm-12 text-right button-padding-submit">
+                                    <button type="submit" class="btn btn-outline-primary btn-md">Submit</button>
+                                </div>
+                            </div>
+                            </fieldset>
+                        </form>
                     </div>
-                    <div class="col-lg-6">
-                        <img class="image-size-career-steps" src="Images/career steps.png" alt="Career Steps">
+                </div>
+                <div class="col-md-6 color-contact border-type">
+                    <div class="setting-contact-info">
+                        <i class="fas fa-envelope fa-3x"></i>
+                        <ul>
+                            <li class="space">
+                                <p class="item-adjust">v.cornici@gmail.com</p>
+                            </li>
+                            <li class="space">
+                                <p class="item-adjust">vlad.cornici@mail.ru</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="setting-contact-info1">
+                        <i class="fas fa-phone-square-alt fa-3x"></i>
+                        <ul>
+                            <li class="space">
+                                <p class="item-adjust">Ro +373 60 89 61 69</p>
+                            </li>
+                            <li class="space">
+                                <p class="item-adjust">Md +40 78 45 49 45</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
+
+
+
+
+
+
+
 
     <!-- Social Network Section -->
     <section id="social-contact-section">
         <div class="container ">
-            <div class="social-contact-class-index">
-                <div class="row">
+            <div class="social-contact-class ">
+                <div class="row row-padding">
                     <div class="col">
                         <a href="https://www.facebook.com/cornici.vlad"><span
                                 class="fab fa-facebook fa-2x social-icons"></span></a>
@@ -117,8 +174,8 @@
 
     <!-- Footer Section  -->
     <section id="foter-section">
-        <footer>
-            <div class="foter-class">
+        <footer class="foter-class">
+            <div>
                 <h4> Copyright Cornici Vlad - 2020<sup>©</sup></h4>
             </div>
         </footer>

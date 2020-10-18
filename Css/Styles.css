@@ -5,6 +5,9 @@ body {
   text-align: center;
   margin: 0;
 }
+ul {
+  list-style: none;
+}
 /* Navbar Setction  */
 #navbar-section {
   border: 10px;
@@ -12,14 +15,15 @@ body {
   background-color: #41aea9;
 }
 .name-hover:hover {
-  color: white;
+  color: #133432;
 }
 .container-padding {
   padding: 0 17%;
   height: 220px;
 }
 .font-name {
-  font-family: "Kurale", serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
 }
 .name {
   color: #000;
@@ -45,7 +49,9 @@ body {
 .name-padding {
   padding-left: 2px;
 }
-
+.color-home {
+  color: rgba(0, 0, 0, 0.5);
+}
 /* Welcome Section */
 .image-size-career-steps {
   width: 90%;
@@ -133,7 +139,7 @@ body {
   text-align: center;
   line-height: 1.5;
   padding-top: 4%;
-  font-family: "Sumana", serif;
+  font-family: "Kurale", serif;
 }
 .minus-margin {
   margin: 0;
@@ -149,4 +155,62 @@ body {
 }
 .software-settings {
   padding: 0;
+}
+/* Contact Css */
+.contact-padding {
+  padding: 5% 5%;
+}
+.border {
+  border: solid 2px;
+}
+.color-contact {
+  background-color: #41aea9;
+  border-style: solid 2px;
+  border-color: black;
+}
+
+.settings-contact {
+  font-family: "Kurale", serif;
+  padding-top: 5%;
+  padding-left: 30%;
+}
+
+@media (max-width: 1200px) {
+  .size-control-smale {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .size-control-smale {
+    width: 80%;
+  }
+}
+.padding-form {
+  padding: 0;
+  margin: 0 12%;
+}
+.button-padding-submit {
+  padding-right: 13%;
+}
+.setting-contact-info {
+  text-align: center;
+  padding: 10% 10% 5%;
+}
+.setting-contact-info1 {
+  text-align: center;
+  padding: 2% 22%;
+}
+.item-adjust {
+  font-family: "Jacques Francois", serif;
+  width: 100px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.space {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.border-type {
+  border: solid 2px;
+
+  border-color: rgba(0, 0, 0, 0.5);
 }
