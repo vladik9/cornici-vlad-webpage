@@ -87,6 +87,15 @@ ul {
   background-color: #41aea9;
   height: 200px;
 }
+.fab:hover {
+  color: #3a3d3d;
+}
+.fas:hover {
+  color: #3a3d3d;
+}
+.far:hover {
+  color: #3a3d3d;
+}
 .social-contact-class {
   height: 100px;
   width: auto;
