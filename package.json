@@ -1,0 +1,24 @@
+{
+  "name": "cornici-vlad-webpage",
+  "version": "1.0.0",
+  "description": "Personal WebPage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladik9/cornici-vlad-webpage.git"
+  },
+  "author": "VladC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladik9/cornici-vlad-webpage/issues"
+  },
+  "homepage": "https://github.com/vladik9/cornici-vlad-webpage#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  }
+}

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cornici Vlad -CV</title>
-    <link rel="icon" href="Images/favicon_CV.ico">
+    <link rel="icon" href="/Images/favicon_CV.ico">
     <!-- Bootstrap link -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CssStyle -->
 
-    <link rel="stylesheet" href="Css/Styles.css">
-    <link rel="stylesheet" href="Css/Cercle_special.css">
+    <link rel="stylesheet" href="/Css/Styles.css">
+    <link rel="stylesheet" href="/Css/Cercle_special.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
@@ -81,28 +81,28 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-md-offset-3 border">
                     <div class="well well-sm">
-                        <form class="form-horizontal" action="" method="post">
+                        <form class="form-horizontal" action="/Contact.html" method="post">
                             <legend class="text-left settings-contact ">Contact Me</legend>
                             <!-- Name input-->
                             <div class="form-group size-control-smale">
                                 <div class="col-md-9  padding-form">
-                                    <input id="name" name="name" type="text" placeholder="Your name"
-                                        class="form-control">
+                                    <input id="name" class="form-control" name="user_name" type="text"
+                                        placeholder="Your name" required autofocus>
                                 </div>
                             </div>
                             <!-- Email input-->
                             <div class="form-group size-control-smale">
                                 <div class="col-md-9 padding-form">
-                                    <input id="email" name="email" type="text" placeholder="Your email"
-                                        class="form-control">
+                                    <input id="email" class="form-control" name="user_email" type="email"
+                                        placeholder="Your email" required>
                                 </div>
                             </div>
                             <!-- Message body -->
                             <div class="form-group size-control-smale">
                                 <label class="col-md-3 control-label" for="message"></label>
                                 <div class="col-md-9 padding-form">
-                                    <textarea class="form-control" id="message" name="message"
-                                        placeholder="Please enter your message here..." rows="5"></textarea>
+                                    <textarea class="form-control" id="message" name="user_message"
+                                        placeholder="Please enter your message here..." type="text" rows="5"></textarea>
                                 </div>
                             </div>
                             <!-- Form actions -->
@@ -168,7 +168,7 @@
     <section id="foter-section">
         <footer class="foter-class">
             <div>
-                <h4> Copyright Cornici Vlad - 2020<sup>©</sup></h4>
+                <h4> Copyright Cornici Vlad - 2021<sup>©</sup></h4>
             </div>
         </footer>
     </section>

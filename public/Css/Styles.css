@@ -212,7 +212,8 @@ ul {
 .item-adjust {
   font-family: "Jacques Francois", serif;
   width: 100px;
-  color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-weight: bold;
 }
 .space {
   margin-top: 5%;
