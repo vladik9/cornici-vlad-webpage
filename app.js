@@ -25,11 +25,11 @@ app.post("/Contact.html", function (req, res) {
   let userMessage = req.body.user_message;
   console.log(userName + " " + userMessage + " " + UserEmail);
 
-  const url = "https://us6.api.mailchimp.com/3.0/lists/afab3d11ee";
+  const url = "url api";
   const options = {
     // make a options object for autentication method and post request option
     method: "POST",
-    auth: "vladik:dd20b37ced40ed19992ac9acd62facd5-us6", // the authentification login can be random until the api key is unchanged
+    auth: "pasword: api", // the authentification login can be random until the api key is unchanged
   };
   const dataFromUser = {
     //make a JS object with an arr of object
